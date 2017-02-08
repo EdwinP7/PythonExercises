@@ -1,7 +1,7 @@
 # assign a string to formatter variable
 formatter = "%r %r %r %r"
 
-
+# several prints
 print formatter % (1, 2, 3, 4)
 print formatter % ("one", "two", "three", "four")
 print formatter % (True, False, False, True)
