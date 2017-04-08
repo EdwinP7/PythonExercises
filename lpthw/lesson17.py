@@ -5,7 +5,7 @@ script, from_file, to_file = argv
 
 print "Copying from %s to %s" % (from_file, to_file)
 
-#
+# Can be done on one line
 in_file = open(from_file)
 indata = in_file.read()
 
